@@ -1,0 +1,26 @@
+{
+  "name": "vue-hint.css",
+  "version": "0.0.1",
+  "description": "A lightweight wrapper for hint.css that brings customizible tooltips to Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "url": "https://github.com/sunabozu/vue-hint.css",
+    "type": "git"
+  },
+  "author": "troorl <troorl@gmail.com>",
+  "license": "MIT",
+
+  "dependencies": {
+    "hint.css": "^2.4.0"
+  },
+
+  "devDependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-preset-es2015": "^6.14.0",
+    "webpack": "^1.13.2"
+  }
+}
