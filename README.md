@@ -10,7 +10,7 @@
 
 It's just a small directive that adds tooltips to your elements.
 
-You can import it directly in your HTML page (it will be available as a global variable named `VueHintCss`):
+You can import it directly in your HTML page (it will be available as a global variable named `VueHintCss.default`):
 
 ``` html
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/hint.css/2.4.0/hint.min.css" />
@@ -27,7 +27,7 @@ npm i vue-hint.css --save
 
 ``` javascript
 require('hint.css/hint.css')
-const VHint = require('vue-hint.css')
+const Hint = require('vue-hint.css')
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ In your component:
 ``` javascript
 export default {
   directives: {
-    VHint
+    Hint
   },
 
   ...
