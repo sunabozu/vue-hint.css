@@ -13,8 +13,8 @@ It's just a small directive that adds tooltips to your elements.
 You can import it directly in your HTML page (it will be available as a global variable named `VueHintCss`):
 
 ``` html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.4.0/hint.min.css" />
-<script type="text/javascript" src="http://cdn.rawgit.com/sunabozu/vue-hint.css/master/index.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/hint.css/2.4.0/hint.min.css" />
+<script type="text/javascript" src="//cdn.rawgit.com/sunabozu/vue-hint.css/master/index.js"></script>
 ```
 
 Or install through npm...
@@ -27,7 +27,7 @@ npm i vue-hint.css --save
 
 ``` javascript
 require('hint.css/hint.css')
-const VueHintCss = require('vue-hint.css')
+const VHint = require('vue-hint.css')
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ In your component:
 ``` javascript
 export default {
   directives: {
-    VueHintCss
+    VHint
   },
 
   ...
@@ -47,7 +47,7 @@ export default {
 In your template:
 
 ``` html
-<button vue-hint-css.top="'the text of the tooltip'">Submit</button>
+<button v-hint.top="'the text of the tooltip'">Submit</button>
 ```
 
 ## Modifiers
