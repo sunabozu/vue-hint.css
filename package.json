@@ -1,6 +1,6 @@
 {
   "name": "vue-hint.css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A lightweight wrapper for hint.css that brings customizible tooltips to Vue.js",
   "main": "index.js",
   "scripts": {

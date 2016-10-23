@@ -60,11 +60,11 @@ v-hint.right.rounded.always.error="'Tooltip'"
 
 Supported modifiers:
 
-- top, right, bottom, left
-- error, success, info, warning
-- always
-- rounded
-- no-animate
-- bounce
+- `top`, `right`, `bottom`, `left`
+- `error`, `success`, `info`, `warning`
+- `always`
+- `rounded`
+- `no-animate`
+- `bounce`
 
 If you want to hide a persistent tooltip (`always`), just set it to `false` or `null`.
